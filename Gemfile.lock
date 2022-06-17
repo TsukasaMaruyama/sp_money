@@ -1,10 +1,10 @@
 GIT
-  remote: git://github.com/mbleigh/seed-fu.git
-  revision: a13ce36900e6283072c06eb45b713353ccc13bfe
+  remote: https://github.com/mbleigh/seed-fu.git
+  revision: 34c054c914858c3d7685f83d16dea5c0e2114561
   specs:
-    seed-fu (2.3.5)
-      activerecord (>= 3.1, < 4.3)
-      activesupport (>= 3.1, < 4.3)
+    seed-fu (2.3.9)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
 
 GEM
   remote: https://rubygems.org/
@@ -27,8 +27,10 @@ GEM
     bcrypt (3.1.10)
     builder (3.2.2)
     coderay (1.1.0)
+    concurrent-ruby (1.1.10)
     dotenv (2.0.2)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     json (1.8.3)
     method_source (0.8.2)
     mini_portile (0.6.2)
